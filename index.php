@@ -25,8 +25,8 @@
   background-image: url('aiet-logo.png');
 }
   </style>
-  <link rel="icon" href="images/sitelogo.png" />
-    <title>index</title>
+  <link rel="icon" href="images/logo.png" />
+    <title>Amrita Club  </title>
 </head>
 
 <body>
@@ -66,11 +66,11 @@
         <a href="./contact.html">contact</a>
       </nav>
       <div class="icons">
-        <i class="fa-solid fa-user" id="login-btn"></i>
+       <a href="userlogin.php"> <i class="fa-solid fa-user" id="login-btn"></i></a>
       </div>
     </header>
     <!-- login form container -->
-    <div class="login-form-container">
+    <!-- <div class="login-form-container">
       <i class="fa-sharp fa-solid fa-circle-xmark" id="form-close"></i>
       <form action="javascript:void(0);">
         <h3>login</h3>
@@ -83,7 +83,7 @@
         <p>forgot password? <a href="#" >click here</a></p>
         <p>don't have an account? <a href="./register.html" target="_blank">register now</a></p>
       </form>
-    </div>
+    </div> -->
 
     <!-- home section  -->
     <section class="home" id="home">
@@ -94,7 +94,7 @@
 
       <div class="search-container">
         <form action="./index.html" class="search-bar">
-          <input type="text" placeholder="Search" class="text" />
+          <input type="search" placeholder="Search" class="text" />
           <button>
             <a href="#" id="searchbtn"
               ><i class="fa-solid fa-magnifying-glass" id="search-btn"></i
@@ -113,7 +113,7 @@
 
       <div class="video-container">
         <video
-          src="./media_content/vid.mp4"
+          src="./images/main.mp4"
           id="video-slider"
           autoplay
           muted
@@ -152,46 +152,46 @@
 
     <!-- popular destination starts here -->
     <section class="packages" id="packges">
-      <h1>Popular Destinations</h1>
+      <h1>Popular Events</h1>
 
       <div class="box-container">
         <div class="box">
-          <img src="./media_content/pop1.jpg" alt="pop1" />
+          <img src="./images/dastaan.jpg" alt="pop1" />
           <div class="content">
-            <h3><i class="fa-solid fa-location-dot"></i>Mt.Everest</h3>
+            <h3><i class="fa-solid fa-calendar-days"></i>Dastaan</h3>
             <p>
-              Mount Everest is the highest peak in the world which stands at 8848 m high altitude from sea level.<br> Mount Everest named by name of Sir George Everest in 1865 AD. It is located in the Solukhumbu district of Nepal. Mount Everest, known in Nepalese as Sagarmatha. There are other local names also provided for Mount Everest like Third pole.
+            Dastaan is a national-level college fest where the fusion of technology and storytelling takes center stage. We invite you to explore the captivating link between narratives and innovation where you craft your own stories and just as stories shape our lives. “Awakening the Eternal Now” promises to be a historic celebration of innovation and entertainment with a profound commitment to making a positive impact on society. 
             </p>
           </div>
           <div class="button">
-            <a href="https://en.wikipedia.org/wiki/Mount_Everest" target="_blank" class="btn">Know More</a>
+            <a href="https://dastaan.amrita.edu/discover" target="_blank" class="btn">Know More</a>
           </div>
         </div>
 
         <div class="box">
-            <img src="./media_content/pop2.jpg" alt="pop1" />
+            <img src="./images/kalakriti3.jpg" alt="pop1" />
             <div class="content">
-              <h3><i class="fa-solid fa-location-dot"></i>Sweden</h3>
+              <h3><i class="fa-solid fa-calendar-days"></i>Kalakriti</h3>
               <p>
-                Sweden, the land of captivating landscapes and rich cultural heritage.<br> Experience the perfect blend of vibrant cities, breathtaking nature, and a society renowned for its sustainability and innovation.Immerse yourself in Swedish culture by visiting historic landmarks such as the royal palace, a UNESCO World Heritage site, or the ancient Viking rune stones scattered across the country.
+              The School of Engineering, Amrita Vishwa Vidyapeetham, Bengaluru, organised Kalakriti’19, the Annual Talent Hunt for freshmen, on August 23, 2019. The inaugural ceremony commenced with the lighting of lamp by the Chief Guest Prof. Rakesh S.G., Associate Dean and Ms. G.S. Jyotsna, Co-Chair, Amritadhaara
               </p>
             </div>
             <div class="button">
               <div>
-              <a href="https://en.wikipedia.org/wiki/Sweden" target="_blank" class="btn">Know More</a></div>
+              <a href="https://www.amrita.edu/event/kalakriti-19/" target="_blank" class="btn">Know More</a></div>
             </div>
           </div>
           
           <div class="box">
-            <img src="./media_content/pop3.jpg" alt="pop1" />
+            <img src="./images/kalanjali.jpeg" alt="pop1" />
             <div class="content">
-              <h3><i class="fa-solid fa-location-dot"></i>Kerala Houseboat</h3>
+              <h3><i class="fa-solid fa-calendar-days"></i>Kalanjali</h3>
               <p>
-                Kerala is renowned for its magnificent vistas, rich vegetation, and houseboats, in addition to its backwaters.<br> The traditional houseboat of Kerala is known by the name Kettuvallam. The greatest areas in Kerala for houseboat vacations include Alappuzha, Vembanad, and Kollam. These houseboats are highly known for their overnight houseboat tours and for making fast trips through backwaters.
+              Amritakalanjali’19, the Annual Cultural Fest of the School of Engineering, Amrita Vishwa Vidyapeetham, Bengaluru, was hosted from March 15-16, 2019, with ‘mythology’ as the theme. Various events were conducted during the 2-day fest.  
               </p>
             </div>
             <div class="button">
-              <a href="https://en.wikipedia.org/wiki/Kerala" target="_blank" class="btn">Know More</a>
+              <a href="https://www.amrita.edu/event/amrita-kalanjali-2019/" target="_blank" class="btn">Know More</a>
             </div>
           </div>
 
@@ -251,7 +251,7 @@
     </section>
     <!-- popular destination ends here -->
       <section class="whytravello">
-        <div class="container-title"><h1>Why Travello??</h1></div>
+        <div class="container-title"><h1>Announcements</h1></div>
         <div class="containerofkrishna">
           <div class="container-paragraph">
             <div class="left-content">
@@ -748,7 +748,7 @@
             </div>
 
           </div>
-          <h1 class="credit">created by <span>team travelo</span> | all rights reserved!</h1>
+          <h1 class="credit">created by <span>team Amrita</span> | all rights reserved!</h1>
     </section>
     <!-- footer section ends here  -->
     <script src="./Script.js"></script>
