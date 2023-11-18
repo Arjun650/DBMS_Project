@@ -1,3 +1,19 @@
+<?php
+// index.php
+
+// Fetch announcements from the database
+$conn = new mysqli("localhost", "root", "", "aietclub");
+
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+
+$sql = "SELECT * FROM announcements ORDER BY created_at DESC LIMIT 4"; // Limit to the first 4 rows
+$result = $conn->query($sql);
+
+$conn->close();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -88,7 +104,7 @@
     <!-- home section  -->
     <section class="home" id="home">
       <div class="content">
-        <h3>Discover. Explore. Adventure.</h3>
+        <h3>Discover. Explore. Learn.</h3>
         <p>Welcome to our website !</p>
       </div>
 
@@ -317,6 +333,32 @@
           </div>
         </div>
       </section>
+
+
+      <!-- phpp Announcements -->
+ <section class="whytravello">
+        <div class="container-title"><h1>Announcements</h1></div>
+        <?php
+    // Display announcements
+    while ($row = $result->fetch_assoc()) {
+        echo "<div class='announcement-container'>";
+        echo "<div class='left-container'>";
+        echo "<h2>{$row['title']}</h2>";
+        echo "</div>";
+        echo "<div class='right-container'>";
+        echo "<p>{$row['content']}</p>";
+        echo "<span>Posted on: {$row['created_at']}</span>";
+        echo "</div>";
+        echo "</div>";
+    }
+    ?>
+    <p>
+        </div>
+      </section>
+      <!-- php announcements ends  -->
+
+
+
     <!-- services section starts here  -->
     <section class="service" id="service">
         <h1>our services</h1>

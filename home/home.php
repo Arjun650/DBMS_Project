@@ -54,6 +54,8 @@ mysqli_close($conn);
                                 href="notice.php">Notices</a></li>
                         <li class="text-stone-600 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1"><a
                                 href="contact.php">Contact</a></li>
+                        <li class="text-stone-600 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1"><a
+                            href="announcement.php">Announcements</a></li>
                         <!-- <button type="submit" class="text-gray-700 block w-full px-4 py-2 text-left text-sm" role="menuitem" tabindex="-1" id="menu-item-3"><a href="login.html">Sign out</a></button> -->
                         <li class="text-stone-600 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1"><a
                           href="../index.php">Sign out</a></li>

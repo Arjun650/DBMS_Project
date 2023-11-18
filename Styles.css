@@ -59,7 +59,7 @@ header{
     top: 0;
     left: 0;
     right: 0;
-    background: #b3d0da99;
+    background: #d7e6eb99;
     backdrop-filter: blur(2px);
     box-shadow: 0 10px 20px rgba(0,0,0,0.15);
     z-index: 999 ;
@@ -980,6 +980,51 @@ header .icons i:hover{
 
 
 
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+.announcement-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-container {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.right-container {
+    flex: 2;
+}
+
+.left-container h2 {
+    color: #0066cc;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.right-container p {
+    color: #333;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+.right-container span {
+    color: #888;
+    display: block;
+    margin-top: 10px;
+    font-size: 12px;
+}
 
 
 
