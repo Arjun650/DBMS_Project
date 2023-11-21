@@ -37,7 +37,7 @@ section{
 .btn{
     display: inline-block;
     margin-top: 1rem;
-    background: red;
+    background: var(--orange);
     color: #fff;
     padding: .8rem 3rem;
     border:.2rem solid var(--orange);
@@ -171,7 +171,7 @@ header .icons i:hover{
     margin-left:auto;
     margin-right:auto;
     margin-bottom: 15px;
-    background: red;
+    background: var(--orange);
 }
 
 .login-form-container form p{
@@ -182,7 +182,7 @@ header .icons i:hover{
 }
 
 #noempty{
-    color: red;
+    color: var(--orange);
 }
 
 .login-form-container form p a{
