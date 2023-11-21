@@ -45,8 +45,28 @@ if(isset($_POST['createacc'])){
   <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+
   />
+
+  
+  <style>
+    body{
+      overflow: hidden;
+    }
+    .adminLogin{
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      
+    }
+    .adminLogin h1{
+      font-size:30px;
+      
+    }
+  </style>
+  
 </head>
+
 <body class="bg-[url('../images/college.jpg')]">
   <!-- <form method="post" action="">
     <label for="username">Username:</label><br>
@@ -56,6 +76,21 @@ if(isset($_POST['createacc'])){
     <input type="submit" name="login" value="Login">
   </form>  -->
 
+  <!-- <header>
+      <a href="./index.html" class="logo"> <span>A</span>MRITA</a>
+
+      <nav class="navbar">
+        <a href="admin/login.php">ADMIN</a>
+        <a href="userlogin.php">USER</a>
+        <a href="#service">services</a>
+        <a href="./../gallery/gallery.html">Gallary</a>
+        <a href="./../review/review.html">review</a>
+        <a href="./contact.html">contact</a>
+      </nav>
+      <div class="icons">
+       <a href="userlogin.php"> <i class="fa-solid fa-user" id="login-btn"></i></a>
+      </div>
+    </header> -->
 
     <form action="" method="post">
     <div class="flex justify-center animate__animated animate__jello" id="container">
@@ -66,9 +101,10 @@ if(isset($_POST['createacc'])){
                             <div class="  md:w-1/2 overflow-hidden ">
                                 <div class="flex flex-col items-center justify-center text-stone-400">
                                     <!-- <ion-icon name="logo-amplify" class="text-5xl text-fuchsia-600"></ion-icon> -->
-                                    <div class=" md:w-1/6 overflow-hidden ">
-                                        <img src="../images/aiet-logo.png" alt="" class="" />
+                                    <div class="admin md:w-1/6 overflow-hidden ">
+                                        <img src="../images/logotr1.png" alt="" class="" />
                                     </div>
+                                    <!-- <div><h1>Admin Login</h1></div> -->
                                     <div class="flex flex-col ">
                                         <div class="m-2">USERNAME</div>
                                         <input class="border-b m-2  bg-gray-50 focus:outline-none" required autofocus type="text" id="username" name="username" />

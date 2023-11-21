@@ -1,17 +1,15 @@
 <?php
-// index.php
 
-// Fetch announcements from the database
-$conn = new mysqli("localhost", "root", "", "aietclub");
+  $conn = new mysqli("localhost", "root", "", "aietclub");
 
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
+  if ($conn->connect_error) {
+      die("Connection failed: " . $conn->connect_error);
+  }
 
-$sql = "SELECT * FROM announcements ORDER BY created_at DESC LIMIT 4"; // Limit to the first 4 rows
-$result = $conn->query($sql);
+  $sql = "SELECT * FROM announcements ORDER BY created_at DESC LIMIT 5"; // Limit to the first 4 rows
+  $result = $conn->query($sql);
 
-$conn->close();
+  $conn->close();
 ?>
 
 <!DOCTYPE html>
@@ -30,16 +28,14 @@ $conn->close();
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="icon" type="image/x-icon" href="/media_content/gall1.jpg">
-    <link rel="stylesheet" href="./Styles.css" >
-    
-
-  <style>
+    <link rel="stylesheet" href="Styles.css" >
+    <style>
     .contain{
     margin: 14%;
-}
-.body{
-  background-image: url('aiet-logo.png');
-}
+    }
+    .body{
+      background-image: url('aiet-logo.png');
+    }
   </style>
   <link rel="icon" href="images/logo.png" />
     <title>Amrita Club  </title>
@@ -82,11 +78,13 @@ $conn->close();
         <a href="./contact.html">contact</a>
       </nav>
       <div class="icons">
-       <a href="userlogin.php"> <i class="fa-solid fa-user" id="login-btn"></i></a>
+       <!-- <a href="userlogin.php"> -->
+         <i class="fa-solid fa-user" id="login-btn"></i>
+        <!-- </a> -->
       </div>
     </header>
     <!-- login form container -->
-    <!-- <div class="login-form-container">
+    <div class="login-form-container">
       <i class="fa-sharp fa-solid fa-circle-xmark" id="form-close"></i>
       <form action="javascript:void(0);">
         <h3>login</h3>
@@ -99,7 +97,7 @@ $conn->close();
         <p>forgot password? <a href="#" >click here</a></p>
         <p>don't have an account? <a href="./register.html" target="_blank">register now</a></p>
       </form>
-    </div> -->
+    </div>
 
     <!-- home section  -->
     <section class="home" id="home">
@@ -261,100 +259,53 @@ $conn->close();
             </div>
           </div> -->
         </div>
-        <div class="button" id="buttonExploreMore">
+        <!-- <div class="button" id="buttonExploreMore">
         <input type="button" class="btn" value="Explore More" onclick="openindex()">
-          </div>
+          </div> -->
+          <!-- popular destination ends here -->
     </section>
-    <!-- popular destination ends here -->
       <section class="whytravello">
         <div class="container-title"><h1>Announcements</h1></div>
-        <div class="containerofkrishna">
-          <div class="container-paragraph">
-            <div class="left-content">
-              <ul>
-                <li id="option1">About Us</li>
-                <li id="option2">Our Expertise</li>
-                <li id="option3">Unforgettable Destination</li>
-                <li id="option4">Tailor-Made Experience</li>
-                <li id="option5">Exceptional Services</li>
-                <li id="option6">Sustainable Travel</li>
-              </ul>
-            </div>
-            <div class="right-content">
-              <p class="option1-content">
-                Welcome to Travelo! <br />Experience the world with
-                Wanderlust Adventures, your premier tour and travel company
-                dedicated to creating unforgettable journeys. Whether you're a
-                seasoned traveler or embarking on your first adventure, we have the
-                perfect itinerary to suit your wanderlust.
-              </p>
-              <p class="option2-content">
-                With years of experience in the travel industry, our team of
-                passionate experts curates exceptional tours designed to immerse you
-                in the beauty and cultural richness of every destination. We believe
-                that travel is not just about seeing new places; it's about creating
-                meaningful connections, broadening horizons, and embracing the
-                spirit of adventure.
-              </p>
-              <p class="option3-content">
-                From the pristine beaches of Bali to the majestic mountains of the
-                Swiss Alps, we offer an extensive range of hand-picked destinations
-                that cater to all types of travelers. Whether you seek relaxation,
-                cultural exploration, or thrilling adventures, our diverse selection
-                of tours will cater to your interests and leave you with memories to
-                last a lifetime.
-              </p>
-              <p class="option4-content">
-                At Travelo , we understand that each traveler has
-                unique preferences. That's why we offer tailor-made itineraries,
-                allowing you to customize your journey according to your desires.
-                Our team will work closely with you to craft a personalized
-                experience that aligns with your interests, travel style, and
-                budget. We take care of all the details so you can focus on enjoying
-                your trip.
-              </p>
-              <p class="option5-content">
-                From the moment you contact us until you return home, we strive to
-                provide exceptional service and support. Our friendly and
-                knowledgeable team is available around the clock to answer your
-                questions, offer guidance, and ensure a seamless travel experience.
-                We partner with trusted local guides and accommodations to ensure
-                your comfort and safety throughout your journey.
-              </p>
-              <p class="option6-content">
-                As travelo , we recognize the importance of preserving the
-                destinations we visit. We are committed to promoting sustainable
-                tourism practices and minimizing our ecological footprint. Through
-                responsible travel initiatives, we aim to protect the environment,
-                support local communities, and preserve cultural heritage for future
-                generations to enjoy.
-              </p>
-            </div>
-          </div>
+        <!-- <div class="containerofkrishna"> -->
+        <?php
+   
+   while ($row = $result->fetch_assoc()) {
+       echo "<div class='announcement-container'>";
+       echo "<div class='left-container'>";
+       echo "<h2>{$row['title']}</h2>";
+       echo "</div>";
+       echo "<div class='right-container'>";
+       echo "<p>{$row['content']}</p>";
+       echo "<span>Posted on: {$row['created_at']}</span>";
+       echo "</div>";
+       echo "</div>";
+   }
+   ?>
+<!-- </div> -->
         </div>
       </section>
 
 
       <!-- phpp Announcements -->
- <section class="whytravello">
+ <!-- <section class="whytravello">
         <div class="container-title"><h1>Announcements</h1></div>
         <?php
-    // Display announcements
-    while ($row = $result->fetch_assoc()) {
-        echo "<div class='announcement-container'>";
-        echo "<div class='left-container'>";
-        echo "<h2>{$row['title']}</h2>";
-        echo "</div>";
-        echo "<div class='right-container'>";
-        echo "<p>{$row['content']}</p>";
-        echo "<span>Posted on: {$row['created_at']}</span>";
-        echo "</div>";
-        echo "</div>";
-    }
+   
+    // while ($row = $result->fetch_assoc()) {
+    //     echo "<div class='announcement-container'>";
+    //     echo "<div class='left-container'>";
+    //     echo "<h2>{$row['title']}</h2>";
+    //     echo "</div>";
+    //     echo "<div class='right-container'>";
+    //     echo "<p>{$row['content']}</p>";
+    //     echo "<span>Posted on: {$row['created_at']}</span>";
+    //     echo "</div>";
+    //     echo "</div>";
+    // }
     ?>
     <p>
         </div>
-      </section>
+      </section> -->
       <!-- php announcements ends  -->
 
 
@@ -895,7 +846,7 @@ $conn->close();
       })
 
       opt2.addEventListener('click',function(){
-        opt1_content.style.display = "none";
+      opt1_content.style.display = "none";
       opt2_content.style.display = "block";
       opt3_content.style.display = "none";
       opt4_content.style.display = "none";

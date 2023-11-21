@@ -83,6 +83,98 @@
             });
         });
     </script>
+    <!-- <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Load announcements on page load
+            loadAnnouncements();
+
+            function loadAnnouncements() {
+                var xhr = new XMLHttpRequest();
+                xhr.open('GET', 'get_announcements.php', true);
+
+                xhr.onload = function() {
+                    if (xhr.status >= 200 && xhr.status < 400) {
+                        var response = JSON.parse(xhr.responseText);
+                        displayAnnouncements(response);
+                    } else {
+                        alert('Error: Unable to connect to the server.');
+                    }
+                };
+
+                xhr.onerror = function() {
+                    alert('Error: Unable to connect to the server.');
+                };
+
+                xhr.send();
+            }
+
+            function displayAnnouncements(announcements) {
+                var announcementList = document.getElementById('announcement-list');
+                announcementList.innerHTML = '';
+
+                announcements.forEach(function(announcement) {
+                    var container = document.createElement('div');
+                    container.classList.add('announcement-item');
+
+                    var title = document.createElement('h2');
+                    title.textContent = announcement.title;
+
+                    var content = document.createElement('p');
+                    content.textContent = announcement.content;
+
+                    var postedOn = document.createElement('p');
+                    postedOn.textContent = 'Posted on: ' + announcement.created_at;
+
+                    var deleteButton = document.createElement('span');
+                    deleteButton.classList.add('delete-btn');
+                    deleteButton.textContent = 'Delete';
+                    deleteButton.addEventListener('click', function() {
+                        deleteAnnouncement(announcement.id);
+                    });
+
+                    container.appendChild(title);
+                    container.appendChild(content);
+                    container.appendChild(postedOn);
+                    container.appendChild(deleteButton);
+
+                    announcementList.appendChild(container);
+                });
+            }
+
+            // Function to delete an announcement
+            function deleteAnnouncement(id) {
+                var confirmed = confirm('Are you sure you want to delete this announcement?');
+
+                if (confirmed) {
+                    // Make an AJAX request to handle the announcement deletion
+                    var xhr = new XMLHttpRequest();
+                    xhr.open('POST', 'delete_announcement.php', true);
+                    xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+
+                    xhr.onload = function() {
+                        if (xhr.status >= 200 && xhr.status < 400) {
+                            var response = JSON.parse(xhr.responseText);
+
+                            if (response.status === 'success') {
+                                alert('Announcement deleted successfully.');
+                                loadAnnouncements(); // Reload the announcements after deletion
+                            } else {
+                                alert('Error: ' + response.message);
+                            }
+                        } else {
+                            alert('Error: Unable to connect to the server.');
+                        }
+                    };
+
+                    xhr.onerror = function() {
+                        alert('Error: Unable to connect to the server.');
+                    };
+
+                    xhr.send('action=delete&id=' + id);
+                }
+            }
+        });
+    </script> -->
 </head>
 <body>
     <h1>Admin Page</h1>
@@ -99,5 +191,7 @@
         </form>
     </div>
     <p><a href="../index.php">go to main page</a></p>
+
+    
 </body>
 </html>
