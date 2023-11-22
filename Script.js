@@ -19,15 +19,15 @@ function validat(){
  document.querySelector("#noempty").innerHTML="";
 }
 function validate(){
-    var username = document.querySelector("#emaill");
-    var password = document.querySelector("#pass");
+    var username = document.querySelector("#username");
+    var password = document.querySelector("#password");
 
     if(username.value == "" || password.value == ""){
         // alert("please fill the empty space")
         var emp = document.querySelector("#noempty").innerHTML="! please fill the empty space"
     }
     else{
-        // var buttonlogin = document.querySelector("#buttonLogin");
+        // var buttonlogin = document.querySelector("#buttonLogin");    
         // buttonlogin.setAttribute("href","./index.html");
          window.open("./index.html" , "_self");
     }

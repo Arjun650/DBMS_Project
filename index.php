@@ -5,12 +5,13 @@
   if ($conn->connect_error) {
       die("Connection failed: " . $conn->connect_error);
   }
-
   $sql = "SELECT * FROM announcements ORDER BY created_at DESC LIMIT 5"; // Limit to the first 4 rows
   $result = $conn->query($sql);
 
+
   $conn->close();
 ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -72,8 +73,8 @@
         <!-- <a href="./index.html"  id="homeNav" style="color: orange;"><i class="fa-solid fa-house"></i></a> -->
         <a href="admin/login.php">ADMIN</a>
         <a href="userlogin.php">USER</a>
-        <a href="#service">services</a>
-        <a href="./../gallery/gallery.html">Gallary</a>
+        <a href="#Clubs">Clubs</a>
+        <a href="#gallary">Gallary</a>
         <a href="./../review/review.html">review</a>
         <a href="./contact.html">contact</a>
       </nav>
@@ -86,14 +87,17 @@
     <!-- login form container -->
     <div class="login-form-container">
       <i class="fa-sharp fa-solid fa-circle-xmark" id="form-close"></i>
-      <form action="javascript:void(0);">
+      <form action="" method="post">
         <h3>login</h3>
-        <input type="email" class="box" id="emaill" onclick="validat()" placeholder="Your Username" required />
-        <input type="password" class="box" id="pass" onclick="validat()" placeholder="Your Password" required />
+        <input type="text" class="box" id="username" name="username" onclick="validat()" placeholder="Your Username"  />
+        <input type="password" class="box" id="password" name="password" onclick="validat()" placeholder="Your Password"  />
         <p id="noempty"></p>
-        <input type="Submit" value="login now" class="btn" onclick="validate()" id="buttonLogin" />
-        <input type="checkbox" id="remember" />
-        <label for="remember">remember me</label>
+        
+        <!-- <input type="checkbox" id="remember" />
+        
+        <label for="remember">remember me</label> -->
+        
+         <input type="Submit" value="login now" class="btn" name="login" onclick="validate()" id="buttonLogin" />
         <p>forgot password? <a href="#" >click here</a></p>
         <p>don't have an account? <a href="./register.html" target="_blank">register now</a></p>
       </form>
@@ -286,73 +290,51 @@
       </section>
 
 
-      <!-- phpp Announcements -->
- <!-- <section class="whytravello">
-        <div class="container-title"><h1>Announcements</h1></div>
-        <?php
-   
-    // while ($row = $result->fetch_assoc()) {
-    //     echo "<div class='announcement-container'>";
-    //     echo "<div class='left-container'>";
-    //     echo "<h2>{$row['title']}</h2>";
-    //     echo "</div>";
-    //     echo "<div class='right-container'>";
-    //     echo "<p>{$row['content']}</p>";
-    //     echo "<span>Posted on: {$row['created_at']}</span>";
-    //     echo "</div>";
-    //     echo "</div>";
-    // }
-    ?>
-    <p>
-        </div>
-      </section> -->
-      <!-- php announcements ends  -->
-
-
-
     <!-- services section starts here  -->
-    <section class="service" id="service">
-        <h1>our services</h1>
+    <section class="service" id="Clubs">
+        <h1>our clubs</h1>
         <div class="box-container">
             <div class="box">
-                <i class="fa-solid fa-hotel"></i>
-                <h3>Best Hotels</h3>
-                <p>"Experience luxury and comfort at its finest with our handpicked selection of the best hotels, offering impeccable service and exquisite amenities."</p>
+            <i class="fa-solid fa-music"></i>
+                <h3>Raaga - The Music Club</h3>
+                <p>"Solo singing, group singing,instrumental music, antakshari, Voice of Amrita are some of the most popular events of the club."</p>
             </div>
 
             <div class="box">
-                <i class="fa-solid fa-utensils"></i>
-                <h3>Food and Drinks</h3>
-                <p>"Savor delectable cuisines from around the world as you explore new destinations, with our top-notch food facilities designed to cater to your gastronomic desires."</p>
+            <i class="fa-solid fa-leaf"></i>
+                            <h3>Prakriti - The Eco Club</h3>
+                <p>"Creating awareness of nature conservation, cleanliness drives,energy conservation, tree plantation are some of the initiatives."<p>
             </div>
             
             <div class="box">
-                <i class="fa-solid fa-bullhorn"></i>
-                <h3>Experienced guides</h3>
-                <p>"Embark on a journey led by our experienced guides, who bring destinations to life with their wealth of knowledge and captivating storytelling."</p>
+            <i class="fa-solid fa-volleyball"></i>
+            <h3>The Sports Club</h3>
+                <p>"Cricket,Football,Badminton, Tennis and many indoor games are provided for Sports lovers on campus. Students participate in intra and inter university tournaments."</p>
             </div>
 
             <div class="box">
-                <i class="fa-solid fa-house"></i>
-                <h3>family Trip</h3>
-                <p>"Create unforgettable family memories with our tailor-made trips, designed to cater to the unique needs and preferences of every family member."</p>
+            <i class="fa-solid fa-camera"></i>
+                            <h3>The Photography Club</h3>
+                <p>"The club encourages students with passion to shoot. The members of the club go on photo walks to historical places and places of scenic beauty to capture best scenes."</p>
             </div>
             
             <div class="box">
-                <i class="fa-solid fa-plane"></i>
-                <h3>Fastest travel</h3>
-                <p>"Experience swift and hassle-free journeys with our commitment to providing the fastest travel options, allowing you to maximize your adventures."</p>
+            <i class="fa-solid fa-palette"></i>
+            <h3>The Art Club</h3>
+                <p>"Painting, sketching, mehendi,face painting, mask making,props making are the popular events of this club. "</p>
             </div>
 
             <div class="box">
-                <i class="fa-solid fa-person-cane"></i>
-                <h3>old aged and disabled tour</h3>
-                <p>"Experience inclusivity and thoughtful assistance throughout your trip, with our specialized services catering to the unique requirements of elderly and disabled travelers."</p>
+            <i class="fa-solid fa-code"></i>
+                            <h3>CodeChef</h3>
+                <p>"CodeChef was created as a platform to help programmers make it big in the world of algorithms, computer programming, and programming contests. It hosts three featured contests every month (Long Challenge, CookOff, LunchTime & Starters) and gives away prizes and goodies to the winners as encouragement."</p>
             </div>
         </div>
-        <!-- <div class="button" id="buttonExploreMore">
-            <input type="button" class="btn" value="Know More">
-              </div> -->
+        <div class="button" id="buttonExploreMore">
+        <div class="button">
+              <a href="https://www.amrita.edu/" target="_blank" class="btn">Know More</a>
+            </div>     
+           </div>
     </section>
 
     <!-- services section ends here  -->
@@ -361,72 +343,73 @@
             <h1 class="heading">Gallary</h1>
             <div class="box-container">
                 <div class="box">
-                    <img src="./media_content/gall1.jpg" alt="gall1">
+                    <img src="images/gal3.jpg" alt="gall1">
                     <div class="content">
-                        <h3>Religious Site</h3>
-                        <p>See more photos from @travello.</p>
+                        <h3>Convocation Day</h3>
+                        <p>See more photos at See More</p>
                         <!-- <input type="button" class="btn" value="See more"> -->
-                        <a href="./gallery/gallery.html" class="btn" style="text-decoration: none;">See more</a>
                     </div>
                 </div>
 
                 <div class="box">
-                    <img src="./gallery/mountain10.jpg" alt="gall1">
+                    <img src="images/gal2.jpg" alt="gall1">
                     <div class="content">
-                        <h3>Mountain</h3>
-                        <p>See more photos from @travello.</p>
-                        <a href="./gallery/gallery.html" class="btn" style="text-decoration: none;">See more</a>
+                        <h3>Swachhata Diwas</h3>
+                        <p>See more photos at See More</p>
+                        <!-- <a href="./gallery/gallery.html" class="btn" style="text-decoration: none;">See more</a> -->
                     </div>
                 </div>
 
                 <div class="box">
-                    <img src="./media_content/gall5.jpg" alt="gall1">
+                    <img src="images/gal4.jpg" alt="gall1">
                     <div class="content">
-                        <h3>Historical</h3>
-                        <p>See more photos from @travello.</p>
-                        <a href="./gallery/gallery.html" class="btn" style="text-decoration: none;">See more</a>
+                        <h3>Dance Day</h3>
+                        <p>See more photos at See More</p>
+                        <!-- <a href="/images/feed4.png" class="btn" style="text-decoration: none;">See more</a> -->
                     </div>
                 </div>
                 <div class="box">
-                    <img src="./gallery/nature2.jpg" alt="gall1">
+                    <img src="images/gal5.jpg" alt="gall1">
                     <div class="content">
-                        <h3>Nature</h3>
+                        <h3>Students</h3>
                         <p>See more photos from @travello.</p>
-                        <a href="./gallery/gallery.html" class="btn" style="text-decoration: none;">See more</a>
+                        <!-- <a href="./gallery/gallery.html" class="btn" style="text-decoration: none;">See more</a> -->
                     </div>
                 </div>
 
 
                 <div class="box">
-                    <img src="./gallery/life7.jpg" alt="gall1">
+                    <img src="images/gal6.jpg" alt="gall1">
                     <div class="content">
-                        <h3>Trekking</h3>
-                        <p>See more photos from @travello.</p>
-                        <a href="./gallery/gallery.html" class="btn" style="text-decoration: none;">See more</a>
+                        <h3>Lab</h3>
+                        <p>See more photos at See More</p>
+                        <!-- <a href="./gallery/gallery.html" class="btn" style="text-decoration: none;">See more</a> -->
                     </div>
                 </div>
 
                 <div class="box">
-                    <img src="./media_content/gall3.jpeg" alt="gall1">
+                    <img src="images/gal7.jpg" alt="gall1">
                     <div class="content">
-                        <h3>Adventure</h3>
-                        <p>See more photos from @travello.</p>
-                        <a href="./gallery/gallery.html" class="btn" style="text-decoration: none;">See more</a>
+                        <h3>Faculty</h3>
+                        <p>See more photos at See More</p>
+                        <!-- <a href="./gallery/gallery.html" class="btn" style="text-decoration: none;">See more</a> -->
                     </div>
                 </div>
 
                 <div class="box">
-                  <img src="./gallery/life2.jpg" alt="gall1">
+                  <img src="images/gal8.jpeg" alt="gall1">
                   <div class="content">
-                      <h3>Boating</h3>
-                      <p>See more photos from @travello.</p>
-                      <a href="./gallery/gallery.html" class="btn" style="text-decoration: none;">See more</a>
+                      <h3>Our College</h3>
+                      <p>See more photos at See More</p>
+                      <!-- <a href="./gallery/gallery.html" class="btn" style="text-decoration: none;">See more</a> -->
                   </div>
               </div>
-                
             </div>
-        </section>
-
+            <div class="knowmore" id="knowmore">
+             <a href="./review/review.html" class="btn">See More</a>
+    </div>   
+          </section>
+            
     <!-- gallary section ends here  -->
     
     <!-- review section starts here -->
@@ -600,7 +583,7 @@
                     </div>
                 </div>
 
-                <div class="swiper-slide card">
+                 <div class="swiper-slide card">
                     <div class="card-content">
                         <div class="image">
                             <img src="./gallery/pic5.jpeg" alt="">
@@ -660,7 +643,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> 
         <!-- <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
         <div class="swiper-pagination"></div> -->

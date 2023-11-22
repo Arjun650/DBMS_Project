@@ -68,6 +68,54 @@ if(isset($_POST['name'])) {
     }
 }
 }
+
+
+// include '../dbconnect.php';
+
+// if(isset($_POST['submit'])) {
+//     $name = $_POST['name'];
+//     $email = $_POST['email'];
+//     $club = $_POST['club_name'];
+//     $password = $_POST['password'];
+//     $confirm_password = $_POST['confirmpassword'];
+
+//     // Check if the passwords match
+//     if ($password == $confirm_password) {
+//         // Hash the password
+//         $hashed_password = password_hash($password, PASSWORD_DEFAULT);
+//         // Check if the username already exists
+//         $query = "SELECT * FROM members WHERE name='$name'";
+//         $result = $conn->query($query);
+
+//         if ($result->num_rows > 0) {
+//             echo "<script>alert('Name already exists. Please choose a different one.');</script>";
+//         } else {
+//             // Check if the email already exists
+//             $query = "SELECT * FROM members WHERE email='$email'";
+//             $result = $conn->query($query);
+
+//             if ($result->num_rows > 0) {
+//                 echo "<script>alert('Email already exists.');</script>";
+//             } else {
+//                 // Insert the user into the database
+//                 $sql = "INSERT INTO `members` (name, email, club_name, password) VALUES ('$name', '$email', '$club', '$hashed_password')";
+
+//                 $result = mysqli_query($conn, $sql);
+
+//                 if ($result) {
+//                     echo "<script>alert('Account created successfully');</script>";
+//                 } else {
+//                     die(mysqli_error($conn));
+//                 }
+//             }
+//         }
+//     } else {
+//         // Passwords do not match
+//         echo "<script>alert('Passwords do not match. Please try again.');</script>";
+//     }
+// }
+
+
                 
                 
 

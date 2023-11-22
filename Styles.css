@@ -2,9 +2,9 @@
 
 :root{
     /* --orange:#ffa500; */
-    --orange:#C10B4D;
-    --arjun :red;
-    --arjunn:green;
+    --orange:#C10B4D;    
+    /* --arjun :red; */
+    /* --arjunn:green; */
 }
 
 *{
@@ -182,7 +182,7 @@ header .icons i:hover{
 }
 
 #noempty{
-    color: var(--orange);
+    color: red;
 }
 
 .login-form-container form p a{
@@ -528,7 +528,7 @@ header .icons i:hover{
 .service h1{
     display: flex;
     justify-content: center;
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 400;
     color: var(--orange);
     margin: 15px;

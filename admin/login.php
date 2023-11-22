@@ -15,8 +15,11 @@ if (!$conn) {
 if (isset($_POST['login'])) {
   $username = $_POST['username'];
   $password = $_POST['password'];
+  // $password1 = $_POST['password'];
 
   $query = "SELECT * FROM admin WHERE username='$username' AND password='$password'";
+    // $query = "SELECT * FROM admin WHERE username='$username' AND password_verify(string $password, string $password1)";
+     
   $result = mysqli_query($conn, $query);
 
   if (mysqli_num_rows($result) == 1) {
@@ -34,7 +37,56 @@ if(isset($_POST['createacc'])){
     session_start();
     header('location: ../create_account/create_account.php');
 }
+
+
+// $server = "localhost";
+// $username = "root";
+// $password = "";
+// $dbname = "aietclub";
+
+// // Create connection
+// $conn = mysqli_connect($server, $username, $password, $dbname);
+
+// // Check connection
+// if (!$conn) {
+//   die("Connection failed: " . mysqli_connect_error());
+// }
+
+// if (isset($_POST['login'])) {
+//   $username = $_POST['username'];
+//   $entered_password = $_POST['password'];
+
+//   // Fetch the user's hashed password from the database based on the entered username
+//   $query = "SELECT * FROM admin WHERE username='$username'";
+//   $result = mysqli_query($conn, $query);
+
+//   if ($result && mysqli_num_rows($result) == 1) {
+//     $row = mysqli_fetch_assoc($result);
+//     $stored_hashed_password = $row['password'];
+
+//     // Verify the entered password against the stored hashed password
+//     if (password_verify($entered_password, $stored_hashed_password)) {
+//       // Login success
+//       session_start();
+//       $_SESSION['loggedin'] = true;
+//       header('location: ../home/home.php');
+//     } else {
+//       // Login failed
+//       $error = "Invalid username or password";
+//     }
+//   } else {
+//     // Login failed
+//     $error = "Invalid username or password";
+//   }
+// }
+
+// if(isset($_POST['createacc'])){
+//     session_start();
+//     header('location: ../create_account/create_account.php');
+// }
 ?>
+
+
 
 <!DOCTYPE html>
 <html>
