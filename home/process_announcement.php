@@ -6,7 +6,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $title = $_POST['title'];
     $content = $_POST['content'];
 
-    // Insert the new announcement into the database (replace with your database connection logic)
     $conn = new mysqli("localhost", "root", "", "aietclub");
 
     if ($conn->connect_error) {

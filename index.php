@@ -372,7 +372,7 @@
                     <img src="images/gal5.jpg" alt="gall1">
                     <div class="content">
                         <h3>Students</h3>
-                        <p>See more photos from @travello.</p>
+                        <p>See more photos from <a>See More.</a></p>
                         <!-- <a href="./gallery/gallery.html" class="btn" style="text-decoration: none;">See more</a> -->
                     </div>
                 </div>
@@ -520,7 +520,7 @@
 
 
    <section class="developers">
-    <h1>Customer's review</h1>
+    <h1>Our Team</h1>
         <div class="swiper mySwiper containerop">
             <div class="swiper-wrapper content">
                 <div class="swiper-slide card">
@@ -534,15 +534,16 @@
                                 <p class="review">Travelo: Seamless booking and exceptional customer service for an amazing experience.</p>
                             </div>
                             <div class="rating">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star-half-stroke"></i>
-                            </div>
+                                    <a href="https://www.facebook.com/d.arjun03/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                                    <a href="https://www.instagram.com/d.arjun03/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                                    <a href="https://github.com/Arjun650" target="_blank"><i class="fa-brands fa-github"></i></a>
+                                    <a href="https://www.linkedin.com/in/arjundas03/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                                </div>
                     </div>
                 </div>
 
+
+                  
                 <div class="swiper-slide card">
                     <div class="card-content">
                         <div class="image">
@@ -553,13 +554,13 @@
                                 <span class="name">Arjun Das</span>
                                 <p class="review">Personalized vacations made easy with Travelo's extensive range of destinations.</p>
                             </div>
+                            
                             <div class="rating">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star-half-stroke"></i>
-                            </div>
+                                    <a href="https://www.facebook.com/d.arjun03/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                                    <a href="https://www.instagram.com/d.arjun03/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                                    <a href="https://github.com/Arjun650" target="_blank"><i class="fa-brands fa-github"></i></a>
+                                    <a href="https://www.linkedin.com/in/arjundas03/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                                </div>
                     </div>
                 </div>
 
@@ -574,12 +575,11 @@
                                 <p class="review">Travelo: Exceeding expectations with intuitive interface, competitive prices, and reliable information.</p>
                             </div>
                             <div class="rating">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star-half-stroke"></i>
-                            </div>
+                                    <a href="https://www.facebook.com/d.arjun03/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                                    <a href="https://www.instagram.com/d.arjun03/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                                    <a href="https://github.com/Arjun650" target="_blank"><i class="fa-brands fa-github"></i></a>
+                                    <a href="https://www.linkedin.com/in/arjundas03/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                                </div>
                     </div>
                 </div>
 
@@ -590,16 +590,15 @@
                         </div> 
                             
                             <div class="name-review">
-                                <span class="name">Aayush Thakur</span>
+                                <span class="name">Tharun Alla</span>
                                 <p class="review">Travelo: Making vacation dreams come true with a user-friendly website.</p>
                             </div>
                             <div class="rating">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star-half-stroke"></i>
-                            </div>
+                                    <a href="https://www.facebook.com/d.arjun03/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                                    <a href="https://www.instagram.com/d.arjun03/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                                    <a href="https://github.com/Arjun650" target="_blank"><i class="fa-brands fa-github"></i></a>
+                                    <a href="https://www.linkedin.com/in/arjundas03/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                                </div>
                     </div>
                 </div>
 
@@ -614,12 +613,11 @@
                                 <p class="review">Effortless and enjoyable! Travelo made our vacation stress-free with excellent accommodations.</p>
                             </div>
                             <div class="rating">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star-half-stroke"></i>
-                            </div>
+                                    <a href="https://www.facebook.com/d.arjun03/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                                    <a href="https://www.instagram.com/d.arjun03/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                                    <a href="https://github.com/Arjun650" target="_blank"><i class="fa-brands fa-github"></i></a>
+                                    <a href="https://www.linkedin.com/in/arjundas03/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                                </div>
                     </div>
                 </div>
 
@@ -634,12 +632,11 @@
                                 <p class="review">Incredible value for money! Travelo offers competitive prices without compromising quality.</p>
                             </div>
                             <div class="rating">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star-half-stroke"></i>
-                            </div>
+                                    <a href="https://www.facebook.com/d.arjun03/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                                    <a href="https://www.instagram.com/d.arjun03/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                                    <a href="https://github.com/Arjun650" target="_blank"><i class="fa-brands fa-github"></i></a>
+                                    <a href="https://www.linkedin.com/in/arjundas03/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                                </div>
                     </div>
                 </div>
             </div>

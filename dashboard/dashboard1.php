@@ -10,7 +10,7 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
   
-  <link rel="icon" href="../images/aiet-logo.png" />
+  <link rel="icon" href="../images/logo1.png" />
     <!-- <link rel="stylesheet" href="style.css"> -->
     <title>dashboard</title>
 </head>
@@ -21,7 +21,7 @@
                 <div class="flex justify-between items-center text-gray-700">
                     <div class="mx-2 my-4 ">
                         <div class=" md:w-1/6 overflow-hidden ">
-							<img src="../images/aiet-logo.png" alt="" class="" />
+							<img src="../images/logo.png" alt="" class="" />
 						</div>
                     </div>
                     <ul class="hidden md:flex items-center text-[18px] font-semibold pr-10">

@@ -942,12 +942,14 @@ header .icons i:hover{
     display: flex;
     align-items: center;
     margin-top: 18px;
+    
 }
 
 .developers .card .rating i{
     color:var(--orange);
-    font-size: 18px;
-    margin: 0 2px;
+    font-size: 20px;
+    /* margin: 0 2px;    */
+    margin-left: 19px;  
 }
 
 ::-webkit-scrollbar{

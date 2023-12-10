@@ -72,7 +72,7 @@ if(isset($_POST['createacc'])){
                                 <div class="flex flex-col items-center justify-center text-stone-400">
                                     <!-- <ion-icon name="logo-amplify" class="text-5xl text-fuchsia-600"></ion-icon> -->
                                     <div class=" md:w-1/6 overflow-hidden ">
-                                        <img src="images/aiet-logo.png" alt="" class="" />
+                                        <img src="images/logo.png" alt="" class="" />
                                     </div>
                                     <div class="flex flex-col">
                                         <div class="m-2">USERNAME</div>

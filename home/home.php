@@ -26,7 +26,7 @@ mysqli_close($conn);
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
     
-    <link rel="icon" href="../images/sitelogo.png" />
+    <link rel="icon" href="../images/logo.png" />
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
@@ -42,8 +42,8 @@ mysqli_close($conn);
             <div class="self-center top-0 w-full max-w-7xl ">
                 <div class="flex justify-between items-center text-gray-700">
                     <div class="mx-2 my-4 ">
-                      <div class=" md:w-1/6 overflow-hidden ">
-                        <img src="../images/aiet-logo.png" alt="" class="" />
+                      <div class=" md:w-2/6 overflow-hidden ">
+                        <img src="../images/logo.png" alt="" class="" />
                       </div>
                     </div>
                     <ul class="hidden md:flex items-center text-[18px] font-semibold pr-10">
@@ -299,7 +299,8 @@ Alva’s Education Foundation Managing Trustee M. Vivek Alva told reporters in M
     <div class="div animate__animated animate__fadeInUp">
         <form class="text-gray-600 body-font relative" action="" method="post">
             <div class="absolute inset-0 bg-gray-300">
-              <iframe width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0" title="map" scrolling="no" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.1894699734935!2d74.96541281482257!3d13.02360329082181!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba355f5ffc25cab%3A0x5ef9b57c1b6279cf!2sAlva&#39;s%20Institute%20of%20Engineering%20and%20Technology!5e0!3m2!1sen!2sin!4v1673792752516!5m2!1sen!2sin" style="filter: grayscale(3) contrast(1.2) opacity(0.4);"></iframe>
+              
+                <iframe width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0" title="map" scrolling="no" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15557.01030760906!2d77.66536799540073!3d12.891473797325707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1339d7500cd3%3A0x4b4fbdff03bfee09!2sAmrita%20School%20of%20Engineering!5e0!3m2!1sen!2sin!4v1701837812218!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div class="container px-5 py-24 mx-auto flex">
               <div class="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md">
@@ -327,22 +328,22 @@ Alva’s Education Foundation Managing Trustee M. Vivek Alva told reporters in M
         <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
           <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10">
             <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-              <img src="../images/sitelogo.png" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="19 16 24 24" />
+              <img src="../images/logo.png" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="19 16 24 24" />
                 <!-- <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path> -->
               
-              <span class="ml-3 text-xl">AIET</span>
+              <span class="ml-3 text-xl">Amrita</span>
             </a>
-            <p class="mt-2 text-sm text-gray-500">Alvas engineering college, Club membership management</p>
+            <p class="mt-2 text-sm text-gray-500">Amrita Club Management System</p>
           </div>
           <div class="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first">
             <div class="lg:w-3/4 md:w-1/2 w-full px-4">
               <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CONTACT US</h2>
               <nav class="list-none mb-10">
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">ALVA’S INSTITUTE OF ENGINEERING & TECHNOLOGY <br>
-Shobhavana Campus, Mijar, <br>
-Moodubidire - 574 225, Mangalore, DK 
-Karnataka State - INDIA.</a>
+                  <a class="text-gray-600 hover:text-gray-800">Amrita School Of Engineering <br>
+                    Bengaluru Campus <br>
+                    Kasavanhalli, Carmelaram P.O 560035 
+                    Karnataka State - INDIA.</a>
                 </li>
                 <li>
                   <a class="text-gray-600 hover:text-gray-800">College Phone: 08258- 262724 / 25</a>
@@ -396,7 +397,7 @@ Karnataka State - INDIA.</a>
                   <a class="text-gray-600 hover:text-gray-800" href="https://www.aiet.org.in/training-placement/">Training & Placement</a>
                 </li>
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800" href="https://www.aiet.org.in/life-alvas/ ">Life @ Alvas</a>
+                  <a class="text-gray-600 hover:text-gray-800" href="https://www.aiet.org.in/life-alvas/ ">Life @ Amrita</a>
                 </li>
                 <li>
                   <a class="text-gray-600 hover:text-gray-800" href="https://www.youtube.com/channel/UCJv1H5ZiikrG5KSXfddsDUg ">Youtube</a>

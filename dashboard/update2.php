@@ -128,7 +128,7 @@ if(isset($_POST['submit'])){
 
 ?>
                 <div class=" md:w-1/6 overflow-hidden ">
-                    <img src="../images/aiet-logo.png" alt="" class="" />
+                    <img src="../images/logo.png" alt="" class="" />
                 </div>
             </div>
             <h3 class="text-2xl font-bold text-center">UPDATE HERE</h3>

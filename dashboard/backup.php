@@ -24,7 +24,7 @@ include '../dbconnect.php';
     <h2 class="underline underline-offset-1 text-center text-primary animate__animated animate__backInDown animate__animated ">Deleted Clubs</h2>
     <p class="text-white">Total DELETED Clubs = <?php $p = "select count(*) as `count` from `backup`"; $result= mysqli_query($conn,$p); $row = mysqli_fetch_assoc($result); echo $row['count'];?></p>
 
-        <table class="table table-striped  text-white">
+        <table class="table table-striped text-white">
   <thead>
     <tr>
       <th scope="col">Club id</th>
