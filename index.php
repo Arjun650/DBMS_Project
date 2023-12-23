@@ -526,7 +526,7 @@
                 <div class="swiper-slide card">
                     <div class="card-content">
                         <div class="image">
-                            <img src="./gallery/pic1.jpeg" alt="">
+                            <img src="./images/pro1.jpg" alt="">
                         </div> 
                             
                             <div class="name-review">
@@ -547,7 +547,7 @@
                 <div class="swiper-slide card">
                     <div class="card-content">
                         <div class="image">
-                            <img src="./gallery/pic2.jpeg" alt="">
+                            <img src="./images/pro3.jpg" alt="">
                         </div> 
                             
                             <div class="name-review">
@@ -567,7 +567,7 @@
                 <div class="swiper-slide card">
                     <div class="card-content">
                         <div class="image">
-                            <img src="./gallery/pic3.jpeg" alt="">
+                            <img src="./images/pro1.jpg" alt="">
                         </div> 
                             
                             <div class="name-review">
@@ -586,7 +586,7 @@
                  <div class="swiper-slide card">
                     <div class="card-content">
                         <div class="image">
-                            <img src="./gallery/pic5.jpeg" alt="">
+                            <img src="./images/pro4.jpg" alt="">
                         </div> 
                             
                             <div class="name-review">
@@ -605,7 +605,7 @@
                 <div class="swiper-slide card">
                     <div class="card-content">
                         <div class="image">
-                            <img src="./gallery/pic4.jpeg" alt="">
+                            <img src="./images/pro2.jpg" alt="">
                         </div> 
                             
                             <div class="name-review">
@@ -617,14 +617,14 @@
                                     <a href="https://www.instagram.com/d.arjun03/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
                                     <a href="https://github.com/Arjun650" target="_blank"><i class="fa-brands fa-github"></i></a>
                                     <a href="https://www.linkedin.com/in/arjundas03/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                                </div>
+                               </div>  
                     </div>
                 </div>
 
                 <div class="swiper-slide card">
                     <div class="card-content">
                         <div class="image">
-                            <img src="./gallery/pic6.jpeg" alt="">
+                            <img src="./images/pro4.jpg" alt="">
                         </div> 
                             
                             <div class="name-review">
@@ -658,7 +658,7 @@
             <h1>connect to us</h1>
             <div class="row">
                 <div class="image">
-                    <img src="./media_content/contact.png" alt="conatct">
+                    <img src="./images/contact.png" alt="conatct">
                 </div>
                 <form action="./index.html">
                     <div class="inputBox">
@@ -692,13 +692,13 @@
           <div class="box-container">
             <div class="box">
               <h3>about us</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis temporibus eum eos ipsa eligendi sed itaque voluptatem dignissimos beatae dolore?</p>
+              <p>Amrita Vishwa Vidyapeetham is a multi-disciplinary, research-intensive, private university, educating a vibrant student population of over 24,000 by 1700+ strong faculty. Accredited with the highest possible ‘A++’ grade by NAAC.</p>
             </div>
 
             <div class="box">
               <h3>Our Location</h3>
-              <a href="./undercons.html">India</a>
-              <a href="./undercons.html">nepal</a>
+              <a href="./undercons.html">Kasavanhalli , Bangalore</a>
+              <!-- <a href="./undercons.html">nepal</a> -->
             </div>
 
             <div class="box">

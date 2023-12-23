@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script src="https://cdn.tailwindcss.com"></script>
     <!-- <link rel="stylesheet" href="style.css"> -->
-    <link rel="icon" href="../images/sitelogo.png" />
+    <link rel="icon" href="../images/logo.png" />
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
@@ -33,8 +33,8 @@
                                 dashboard</a></li>
                         <li class="text-stone-600 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1"><a href="../home/clubs.php">Our
                                 Clubs</a></li>
-                        <li class="text-stone-600 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1"><a
-                                href="#">Notices</a></li>
+                        <!-- <li class="text-stone-600 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1"><a
+                                href="#">Notices</a></li> -->
                         <li class="text-stone-600 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1"><a
                                 href="../home/contact.php">Contact</a></li>
                                 <li class="text-stone-600 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1"><a
@@ -78,7 +78,7 @@
            <script src="https://cdn.tailwindcss.com"></script>
            <script src="https://use.fontawesome.com/03f8a0ebd4.js"></script>
            <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-           <script nomodule src="../images/aiet-logo.png"></script> 
+           <script nomodule src="../images/logo.png"></script> 
     </div>
 	<div class="navbarheader bg-[#E8945B] text-white animate__animated animate__flipInX">
         <div class="flex justify-center ">

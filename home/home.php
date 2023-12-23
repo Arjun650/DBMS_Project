@@ -53,8 +53,8 @@ mysqli_close($conn);
                                 dashboard</a></li>
                         <li class="text-stone-600 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1"><a href="clubs.php">Our
                                 Clubs</a></li>
-                        <li class="text-stone-600 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1"><a
-                                href="notice.php">Notices</a></li>
+                        <!-- <li class="text-stone-600 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1"><a
+                                href="notice.php">Notices</a></li> -->
                         <li class="text-stone-600 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1"><a
                                 href="contact.php">Contact</a></li>
                         <li class="text-stone-600 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1"><a
@@ -110,23 +110,24 @@ mysqli_close($conn);
                 <div class="flex flex-col md:flex-row max-w-7xl justify-center items-center ">
                     <div class="overflow-hidden w-full m-4 shadow-sm flex flex-col md:flex-row justify-center">
                         <div class="flex flex-col md:flex-row items-center">
-                            <div class=" w-full overflow-hidden"> <img class="animate__animated animate__fadeInUp" src="../images/feed1.png" alt=""
+                            <div class=" w-full overflow-hidden"> <img class="animate__animated animate__fadeInUp" src="../images/football.jpeg" alt=""
                                     class="" /> </div>
                             <div class="md:w-2/3 m-4 ">
                                 <div class="flex text-gray-500 text-sm m-2">
                                     <div class="m-1 font-bold"></div>
                                     <div class="m-1">Mon, Jan 11 2021 05:42:43 PM</div>
                                 </div>
-                                <div class="font-bold text-black text-xl m-2">AIET  conducts disaster management training</div>
-                                <div class="text-sm text-gray-500 mt-4 m-2"><a href="#"> A three-day training on disaster management is underway at Alva's Institute of Engineering and Technology (AIET) organised by National Disaster Management Force (NDRF), here.
+                                <div class="font-bold text-black text-xl m-2"Amrita's club conducts Football mathc</div>
+                                <div class="text-sm text-gray-500 mt-4 m-2"><a href="#">Unfortunately neither social media nor technology was so advanced at a time when I went to school & college. So, I don't have any from my college days.
 
-Speaking after inaugurating the training programme meant for NCC cadets, Mulky-Moodbidri MLA Umanath Kotian urged the students to serve the nation by joining the Indian army. “NCC will instil discipline and straightforwardness,” he said.</a></div>
+With photos or without them ....one thing is for sure that SPORTS brings out skills and makes one a better person both physically & mentally.
+Sports in college life does it a little more than at any other level.</a></div>
                                 <div class="flex cursor-pointer">
                                     <!-- <div class="m-2"> <img src="https://source.unsplash.com/50x50/?boy" alt=""
                                             class=" rounded-full" /> </div> -->
                                     <div class="grid m-1">
-                                        <div class="font-bold text-sm hover:text-gray-600 mt-2"><a href="https://www.daijiworld.com/news/newsDisplay.aspx?newsID=790167">daijiworld.com</a></div>
-                                        <div class=" text-sm hover:text-gray-600">Moodbidri, Jan 11</div>
+                                        <div class="font-bold text-sm hover:text-gray-600 mt-2"><a href="#">linkedin.com</a></div>
+                                        <div class=" text-sm hover:text-gray-600">Rashmi Verma, Jan 11</div>
                                     </div>
                                 </div>
                             </div>
@@ -147,24 +148,30 @@ Speaking after inaugurating the training programme meant for NCC cadets, Mulky-M
                 <div class="flex flex-col md:flex-row max-w-7xl justify-center items-center ">
                     <div class="overflow-hidden w-full m-4 shadow-sm flex flex-col md:flex-row justify-center">
                         <div class="flex flex-col md:flex-row items-center">
-                            <div class=" w-full overflow-hidden"> <img class="animate__animated animate__fadeInUp" src="../images/feed2.png" alt=""
+                            <div class=" w-full overflow-hidden"> <img class="animate__animated animate__fadeInUp" src="../images/news2.jpeg" alt=""
                                     class="" /> </div>
                             <div class="md:w-2/3 m-4 ">
                                 <div class="flex text-gray-500 text-sm m-2">
                                     <!-- <div class="m-1 font-bold">Vlog,</div> -->
                                     <div class="m-1">September 15, 2022 02:41 pm</div>
                                 </div>
-                                <div class="font-bold text-black text-xl m-2">Job fair at Moodbidri in coastal Karnataka  </div>
+                                <div class="font-bold text-black text-xl m-2">Stage fright or performance anxiety </div>
                                 <div class="text-sm text-gray-500 mt-4 m-2"><a href="#">
-The 12th edition of Alva’s Pragati, a job fair, will be organised at Alva’s Vidyagiri campus in Moodbidri on October 14 and 15 with the organisers claiming an overwhelmingly positive response from recruiting companies this year.
+                                What's common in @Nicole Kidman, Jim Carrey & Emma Watson ............all three of them took stage fright and with time and practice, threw it out of the window.
 
-Alva’s Education Foundation Managing Trustee M. Vivek Alva told reporters in Mangaluru on September 15 that the fair, which was started in 2007 as a corporate social responsibility initiative of the foundation, could not be organised in the last two years due to the COVID-19 pandemic. The job fair is free of cost for job aspirants as well as participating companies.</a></div>
+Stage fright or performance anxiety is the anxiety, fear, or persistent phobia  that may be aroused in an individual by the requirement to perform in front of an audience.
+Stage -
+scares ............yet makes one confident
+frightens .........yet brings out the best
+shames ...........yet helps fight bigger challenges
+amazes ........... but gives one jitters
+spotlights..........but gets butterflies in the stomach.</a></div>
                                 <div class="flex cursor-pointer">
                                     <!-- <div class="m-2"> <img src="https://source.unsplash.com/50x50/?girl" alt=""
                                             class=" rounded-full" /> </div> -->
                                     <div class="grid m-1">
-                                        <div class="font-bold text-sm hover:text-gray-600 mt-2"><a href="https://www.thehindu.com/news/cities/Mangalore/alvas-pragati-mega-job-fair-moodbidri-coastal-karnataka-october-14-15/article65894026.ece"></a>thehindu.com</div>
-                                        <div class=" text-sm hover:text-gray-600">Mangaluru Sep 15</div>
+                                        <div class="font-bold text-sm hover:text-gray-600 mt-2"><a href="https://www.thehindu.com/news/cities/Mangalore/alvas-pragati-mega-job-fair-moodbidri-coastal-karnataka-october-14-15/article65894026.ece"></a>linkedin.com</div>
+                                        <div class=" text-sm hover:text-gray-600">Rashmi Verma Sep 15</div>
                                     </div>
                                 </div>
                             </div>
@@ -185,17 +192,17 @@ Alva’s Education Foundation Managing Trustee M. Vivek Alva told reporters in M
                 <div class="flex flex-col md:flex-row max-w-7xl justify-center items-center ">
                     <div class="overflow-hidden w-full m-4 shadow-sm flex flex-col md:flex-row justify-center">
                         <div class="flex flex-col md:flex-row items-center">
-                            <div class=" w-full overflow-hidden"> <img class="animate__animated animate__fadeInUp" src="../images/feed3.png" alt=""
+                            <div class=" w-full overflow-hidden"> <img class="animate__animated animate__fadeInUp" src="../images/raagRang.jpeg" alt=""
                                     class="" /> </div>
                             <div class="md:w-2/3 m-4 ">
                                 <div class="flex text-gray-500 text-sm m-2">
                                     <!-- <div class="m-1 font-bold">Vlog,</div> -->
                                     <div class="m-1">December 08, 2022 10:51 pm </div>
                                 </div>
-                                <div class="font-bold text-black text-xl m-2">Stellium Technology and Innovation Centre becomes operational at AIET </div>
-                                <div class="text-sm text-gray-500 mt-4 m-2"><a href="#">Stellium Technology and Innovation Centre (STIC) by Stellium Inc., began its operation at Alva’s Institute of Engineering Technology, in Moodbidri on Thursday, after being inaugurated by Alva’s Education Foundation chairman M. Mohan Alva.
-
-                                Stellium Inc. CEO Randeep Nambiar in his inaugural address said STIC would be a sight for Indian Industry along with Middle East and Asia specific clients. He told students: “At STIC, we innovate, design, build and deploy solutions; create beyond the tried and tested and we will be serving global and regional markets from our centre,” he added.
+                                <div class="font-bold text-black text-xl m-2"> Raag and Rang</div>
+                                <div class="text-sm text-gray-500 mt-4 m-2"><a href="#">RAAG & RANG -An event planned for Teacher's Day Celebration at Amrita School of Engineering, Bangalore
+Three memorable months of planning .......innumerable hours of insane practice........amidst juggling between humungous minutes of academic meetings..........10 amazing music lovers who wear their love for music on their sleeves.
+We at Amrita believe in leading by example. Soulful singers came together despite their busy schedule and created musical memories which left the audience asking for more.
 
 
                                 </a></div>
@@ -203,8 +210,8 @@ Alva’s Education Foundation Managing Trustee M. Vivek Alva told reporters in M
                                     <!-- <div class="m-2"> <img src="https://source.unsplash.com/50x50/?man" alt=""
                                             class=" rounded-full" /> </div> -->
                                     <div class="grid m-1">
-                                        <div class="font-bold text-sm hover:text-gray-600 mt-2"><a href="https://www.thehindu.com/news/cities/Mangalore/stellium-technology-and-innovation-centre-becomes-operational-at-alvas-institute-of-engineering-technology/article66238891.ece">thehindu.com</a></div>
-                                        <div class=" text-sm hover:text-gray-600"> Mangaluru Dec 08</div>
+                                        <div class="font-bold text-sm hover:text-gray-600 mt-2"><a href="#">linkedin.com</a></div>
+                                        <div class=" text-sm hover:text-gray-600"> Rashmi Verma Dec 08</div>
                                     </div>
                                 </div>
                             </div>
@@ -225,21 +232,25 @@ Alva’s Education Foundation Managing Trustee M. Vivek Alva told reporters in M
                 <div class="flex flex-col md:flex-row max-w-7xl justify-center items-center ">
                     <div class="overflow-hidden w-full m-4 shadow-sm flex flex-col md:flex-row justify-center">
                         <div class="flex flex-col md:flex-row items-center">
-                            <div class=" w-full overflow-hidden"> <img class="animate__animated animate__fadeInUp" src="../images/feed4.png" alt=""
+                            <div class=" w-full overflow-hidden"> <img class="animate__animated animate__fadeInUp" src="../images/squad.jpeg" alt=""
                                     class="" /> </div>
                             <div class="md:w-2/3 m-4 ">
                                 <div class="flex text-gray-500 text-sm m-2">
                                     <!-- <div class="m-1 font-bold">Vlog,</div> -->
                                     <div class="m-1">December 05, 2022 9:39 am </div>
                                 </div>
-                                <div class="font-bold text-black text-xl m-2">Beach Clean</div>
-                                <div class="text-sm text-gray-500 mt-4 m-2"><a href="#">On 5th Dec. 2021, NSS volunteers along with the members of various other clubs actively participated in the Beach Cleaning activity at Hejmadi Kodi Beach in association with the Mantra Surf Club, Mulki. Solid litter, glass bottles, plastics were segregated. </a></div>
+                                <div class="font-bold text-black text-xl m-2">Squad Club</div>
+                                <div class="text-sm text-gray-500 mt-4 m-2"><a href="#">SQUAD Club at Amrita inculcates Discipline & Focus in the students and uses this two fold approach for their holistic growth.
+In the words of Jim Rohn- "Discipline is the bridge between goals & accomplishments."
+
+Alumni in these FLASHBACK pics are well settled professionally and personally and OUTSHINE others with their strong sense of discipline and focus.
+Share the story behind these pics .......Tag your friends.....and Keep shining BRIGHT!!!</a></div>
                                 <div class="flex cursor-pointer">
                                     <!-- <div class="m-2"> <img src="https://source.unsplash.com/50x50/?woman" alt=""
                                             class=" rounded-full" /> </div> -->
                                     <div class="grid m-1">
-                                        <div class="font-bold text-sm hover:text-gray-600 mt-2"><a href="https://www.aiet.org.in/clubs-activities/nss/">aiet.org.in</a></div>
-                                        <div class=" text-sm hover:text-gray-600">Hejmadi Kodi Beach Dec 5</div>
+                                        <div class="font-bold text-sm hover:text-gray-600 mt-2"><a href="#">linkedin.com</a></div>
+                                        <div class=" text-sm hover:text-gray-600">Rashmi Verma Dec 5</div>
                                     </div>
                                 </div>
                             </div>
@@ -299,7 +310,6 @@ Alva’s Education Foundation Managing Trustee M. Vivek Alva told reporters in M
     <div class="div animate__animated animate__fadeInUp">
         <form class="text-gray-600 body-font relative" action="" method="post">
             <div class="absolute inset-0 bg-gray-300">
-              
                 <iframe width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0" title="map" scrolling="no" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15557.01030760906!2d77.66536799540073!3d12.891473797325707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1339d7500cd3%3A0x4b4fbdff03bfee09!2sAmrita%20School%20of%20Engineering!5e0!3m2!1sen!2sin!4v1701837812218!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div class="container px-5 py-24 mx-auto flex">
@@ -415,23 +425,23 @@ Alva’s Education Foundation Managing Trustee M. Vivek Alva told reporters in M
               <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" class="text-gray-600 ml-1" target="_blank">@knyttneve</a>
             </p> -->
             <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
-              <a class="text-gray-500" href="https://www.facebook.com/aietmijar/">
+              <a class="text-gray-500" href="https://www.facebook.com/AmritaUniversity">
                 <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
                   <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
                 </svg>
               </a>
-              <a class="ml-3 text-gray-500" href="https://twitter.com/aietmoodbidri">
+              <a class="ml-3 text-gray-500" href="https://www.facebook.com/AmritaUniversity #">
                 <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
                   <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
                 </svg>
               </a>
-              <a class="ml-3 text-gray-500" href=" https://www.instagram.com/alvasengineeringofficial/">
+              <a class="ml-3 text-gray-500" href="https://www.instagram.com/amrita_university/">
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
                   <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
                   <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
                 </svg>
               </a>
-              <a class="ml-3 text-gray-500" href="https://www.linkedin.com/school/aietmijar/">
+              <a class="ml-3 text-gray-500" href="https://www.linkedin.com/school/amrita-school-of-engineering-bangalore/">
                 <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
                   <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
                   <circle cx="4" cy="4" r="2" stroke="none"></circle>

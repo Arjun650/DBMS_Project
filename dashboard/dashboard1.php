@@ -31,8 +31,8 @@
                                 dashboard</a></li>
                         <li class="text-stone-600 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1"><a href="../home/clubs.php">Our
                                 Clubs</a></li>
-                        <li class="text-stone-600 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1"><a
-                                href="#">Notices</a></li>
+                        <!-- <li class="text-stone-600 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1"><a
+                                href="#">Notices</a></li> -->
                         <li class="text-stone-600 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1"><a
                                 href="../home/contact.php">Contact</a></li>
                                 <li class="text-stone-600 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1"><a

@@ -33,8 +33,8 @@ include '../dbconnect.php';
                                 dashboard</a></li>
                         <li class="text-stone-600 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1"><a href="clubs.php">Our
                                 Clubs</a></li>
-                        <li class="text-stone-600 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1"><a
-                                href="notice.php">Notices</a></li>
+                        <!-- <li class="text-stone-600 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1"><a
+                                href="notice.php">Notices</a></li> -->
                         <li class="text-stone-600 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1"><a
                                 href="contact.php">Contact</a></li>
                         <li class="text-stone-600 hover:text-blue-600 hover:font-bold font-medium mx-4 my-1"><a
@@ -78,7 +78,7 @@ include '../dbconnect.php';
            <script src="https://cdn.tailwindcss.com"></script>
            <script src="https://use.fontawesome.com/03f8a0ebd4.js"></script>
            <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-           <script nomodule src="../images/aiet-logo.png"></script> 
+           <script nomodule src="../images/Amrita-logo.png"></script> 
     </div>
 
     <div class="clubs">
@@ -95,7 +95,7 @@ include '../dbconnect.php';
                         <div class="w-2 h-14 bg-green-500"></div>
                     </div>
                     <h1 class="text-xl tracking-tight font-semibold text-green-600 uppercase" ><a href="../ourclubs/Rostrum.php">1. Rostrum</a> </h1>
-                    <p class="text-black mt-3 text-center w-[90%] lg:w-[100%]"> The Speakers’ Club at Alva’s is a platform for students to thought-process in various socio-cultural, 
+                    <p class="text-black mt-3 text-center w-[90%] lg:w-[100%]"> The Speakers’ Club at Amrita’s is a platform for students to thought-process in various socio-cultural, 
                         political issues for over a decade. Rostrum brings in about 15 speakers a year and conducts activities like debate, panel discussion, campus parliament and many more.                                              </p>
                     <img src="../images/Rostrum.png" class="rounded-full mt-4" alt="">
                     <div class="flex flex-col -ml-[352px] mt-72 absolute hidden xl:block">
@@ -210,7 +210,7 @@ include '../dbconnect.php';
                         <div class="w-2 h-14 bg-green-500"></div>
                     </div>
                     <h1 class="text-xl tracking-tight font-semibold text-green-600 uppercase   "><a href="../ourclubs/ncc.php">7. NCC</a></h1>
-                    <p class="text-black mt-3 text-center w-[90%] lg:w-[100%]"> Air Wing NCC (Flt-B) at Alva’s Institute of Engineering & Technology is affiliated to No. 06 Kar Air Sqn
+                    <p class="text-black mt-3 text-center w-[90%] lg:w-[100%]"> Air Wing NCC (Flt-B) at Amrita’s Institute of Engineering & Technology is affiliated to No. 06 Kar Air Sqn
                          NCC,<br> Mangalore in the year 2015.<br> Flt – B have authorized strength of 100 cadets..</p>
                     <img src="../images/ncc.png" class="rounded-full mt-4" alt="">
                     <div class="flex flex-col -ml-[352px] mt-72 absolute hidden xl:block">
@@ -283,7 +283,7 @@ include '../dbconnect.php';
                     </div>
                     <h1 class="text-xl tracking-tight font-semibold text-green-600 uppercase   ">11.Swachh Mijar</h1>
                     <p class="text-black mt-3 text-center w-[90%] lg:w-[100%]">Cleanliness is Next to Godliness”
-                        The thought of the people to live in a healthier environment have been kindled by the launch of “Swach Bharat”  AIET,  was also inspired by the Swach Bharat drive and gave a clarion call for “Swachh Mijar” .</p>
+                        The thought of the people to live in a healthier environment have been kindled by the launch of “Swach Bharat”  Amrita,  was also inspired by the Swach Bharat drive and gave a clarion call for “Swachh Mijar” .</p>
                     <img src="../images/mijar.png" class="rounded-full mt-4" alt="">
                     <div class="flex flex-col -ml-[352px] mt-72 absolute hidden xl:block">
                         <div class="w-2 h-14 bg-blue-900"></div>
@@ -300,7 +300,7 @@ include '../dbconnect.php';
                         <div class="w-2 h-14 bg-green-500"></div>
                     </div>
                     <h1 class="text-xl tracking-tight font-semibold text-green-600 uppercase   ">12.Reader’s Club</h1>
-                    <p class="text-black mt-3 text-center w-[90%] lg:w-[100%]"> One of the main goals of the AIET is to prepare the students for professional world, including academics and corporate. “READERS CLUB” is another endeavor of AIET, aimed at providing a platform for students to enhance the general & technical knowledge.</p>
+                    <p class="text-black mt-3 text-center w-[90%] lg:w-[100%]"> One of the main goals of the Amrita is to prepare the students for professional world, including academics and corporate. “READERS CLUB” is another endeavor of Amrita, aimed at providing a platform for students to enhance the general & technical knowledge.</p>
                     <img src="../images/readers.png" class="rounded-full mt-4" alt="">
                     <div class="flex flex-col -ml-[352px] mt-72 absolute hidden xl:block">
                         <div class="w-2 h-14 bg-blue-900"></div>
@@ -406,7 +406,7 @@ include '../dbconnect.php';
                         <div class="w-2 h-14 bg-green-500"></div>
                     </div>
                     <h1 class="text-xl tracking-tight font-semibold text-green-600 uppercase   ">18.Women Empowerment Cell</h1>
-                    <p class="text-black mt-3 text-center w-[90%] lg:w-[100%]"> The WEP Cell of Alva’s Institute of Engineering and Technology has been formed with the following objectives
+                    <p class="text-black mt-3 text-center w-[90%] lg:w-[100%]"> The WEP Cell of Amrita’s Institute of Engineering and Technology has been formed with the following objectives
 
                         To identify and promote the growth of young women students as individuals in their own right.</p>
                     <img src="../images/women.png" class="rounded-full mt-4" alt="">
@@ -427,7 +427,7 @@ include '../dbconnect.php';
                         <div class="w-2 h-14 bg-green-500"></div>
                     </div>
                     <h1 class="text-xl tracking-tight font-semibold text-green-600 uppercase   ">19.Sports</h1>
-                    <p class="text-black mt-3 text-center w-[90%] lg:w-[100%]"> AIET has the best sports infrastructure for the development of sports talent in India.  This has made AIET a force to reckon with in sports across all events..</p>
+                    <p class="text-black mt-3 text-center w-[90%] lg:w-[100%]"> AIET has the best sports infrastructure for the development of sports talent in India.  This has made Amrita a force to reckon with in sports across all events..</p>
                     <img src="../images/sport.png" class="rounded-full mt-4" alt="">
                     <div class="flex flex-col -ml-[352px] mt-72 absolute hidden xl:block">
                         <div class="w-2 h-14 bg-blue-900"></div>

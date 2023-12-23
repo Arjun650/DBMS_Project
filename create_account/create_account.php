@@ -203,7 +203,7 @@ if(isset($_POST['name'])) {
            <script src="https://cdn.tailwindcss.com"></script>
            <script src="https://use.fontawesome.com/03f8a0ebd4.js"></script>
            <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-           <script nomodule src="../images/aiet-logo.png"></script> 
+           <script nomodule src="../images/logo.png"></script> 
     </div> 
 
 
@@ -220,7 +220,7 @@ if(isset($_POST['name'])) {
                         d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />
                 </svg> -->
                 <div class=" md:w-1/6 overflow-hidden ">
-                    <img src="../images/aiet-logo.png" alt="" class="" />
+                    <img src="../images/logo.png" alt="" class="" />
                 </div>
             </div>
             <h3 class="text-2xl font-bold text-center">JOIN US</h3>
@@ -237,6 +237,8 @@ if(isset($_POST['name'])) {
                                 <input type="email" placeholder="Email" name="email" required=""
                                     class="w-full px-4 py-2 mt-2 border rounded-md focus:outline-none focus:ring-1 focus:ring-blue-600" />
                     </div>
+
+
                     <div class="mt-4">
                     <label class="block" for="Name">Club<label>
                     <div class="w-full px-4 py-2 mt-2 border rounded-md focus:outline-none focus:ring-1 focus:ring-blue-600">
