@@ -28,7 +28,7 @@ $user = mysqli_fetch_assoc($result);
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
-  <link rel="icon" href="../images/sitelogo.png" />
+  <link rel="icon" href="../images/logo.png" />
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-cyan-800">

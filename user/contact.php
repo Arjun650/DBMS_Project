@@ -32,7 +32,7 @@ mysqli_close($conn);
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>contact here</title>
-    <link rel="icon" href="../images/sitelogo.png" />
+    <link rel="icon" href="../images/logo.png" />
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
@@ -45,7 +45,7 @@ mysqli_close($conn);
                 <div class="flex justify-between items-center text-gray-700">
                     <div class="mx-2 my-4 ">
                       <div class=" md:w-1/6 overflow-hidden ">
-                        <img src="../images/aiet-logo.png" alt="" class="" />
+                        <img src="../images/logo.png" alt="" class="" />
                       </div>
                     </div>
                     <ul class="hidden md:flex items-center text-[18px] font-semibold pr-10">
